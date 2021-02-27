@@ -1,0 +1,23 @@
+{
+  "custom_stop_words": [],
+
+  "coverage_options": {
+    "output_dir": "cover/",
+    "minimum_coverage": 0
+  },
+
+  "skip_files": [
+    "test/support/conn_case.ex",
+    "test/support/data_case.ex",
+    "test/support/channel_case.ex",
+    "lib/rocketpay_web/views/error_helpers.ex",
+    "lib/rocketpay_web/views/error_view.ex",
+    "lib/rocketpay_web/channels/user_socket.ex",
+    "lib/rocketpay_web/endpoint.ex",
+    "lib/rocketpay_web/gettext.ex",
+    "lib/rocketpay/repo.ex",
+    "lib/rocketpay_web.ex",
+    "lib/rocketpay/application.ex",
+    "lib/rocketpay_web/router.ex"
+  ]
+}
